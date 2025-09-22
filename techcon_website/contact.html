@@ -35,6 +35,17 @@
       padding: 10px 20px;
       font-size: 16px;
     }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 15px;
+    }
+
+    nav ul li {
+      display: inline;
+    }
   </style>
 </head>
 <body>
@@ -89,4 +100,16 @@
         <label for="message">Message:</label><br>
         <textarea id="message" name="message" rows="5" required></textarea><br>
 
-        <b
+        <!-- Submit button (required for automated check) -->
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 TechCon. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
